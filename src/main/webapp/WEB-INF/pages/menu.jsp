@@ -3,7 +3,7 @@
     Created on : Jan 5, 2022, 12:03:14 PM
     Author     : Ali
 --%>
-
+ 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <a class="navbar-brand" href="${pageContext.request.contextPath}">Parking Lot</a>
@@ -11,6 +11,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 
+           
     
     
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
