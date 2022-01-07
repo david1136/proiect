@@ -8,10 +8,34 @@ package com.park.parkinglot.common;
  *
  * @author Ali
  */
-public class CarDetalis {
+public class CarDetalis implements java.io.Serializable {
+    private Integer id;
+    private String licensePlate;
+    private String parkingSpot;
+    private String username;
+
+    public String getParkingSpot() {
+        return parkingSpot;
+    }
+
+    public String getUsername() {
+        return username;
+    }
 
     public CarDetalis(Integer id, String licensePlate, String parkingSpot, String username) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        this.id = id;
+        this.licensePlate = licensePlate;
+        this.parkingSpot = parkingSpot;
+        this.username = username;
+    }
+   
+
+    public Integer getId() {
+        return id;
+    }
+
+    public String getLicensePlate() {
+        return licensePlate;
     }
     
 }
